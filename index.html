@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="logo (1).svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Arkham</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Acceuil <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Films</a>
+                        <a class="nav-item nav-link" href="#">Horaires</a>
+                        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contact</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="jumbotron">
+            <div class="container">
+                <h1>Bienvenue à Arkham</h1>
+                <p>retrouver la liste de noms films préferer ainsi que les horaires de nos séance</p>
+                <hr class="mb-2">
+                <p>coucou</p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">
+                        Nous contacter</a>
+                </p>
+            </div>
+        </section>
+        <h1 class="title offset-1">Nos Films</h1>
+        <hr class="mb-2">
+        <div class="album py-5 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="favaro.jpg" class="px-2 py-2 "  alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">La nuit du chasseur</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up thebulk of the card's content.</p>
+                                <p>
+                                <a href="#" class="btn btn-success my-2" >Réserver</a>
+                                <a href="#" class="btn btn-primary my-2" data-target="#exampleModal">Horaire</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="oie.jpg" class=" px-2 py-2" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Psychose</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up thebulk of the card's content.</p>
+                                <p>
+                                <a href="#" class="btn btn-success my-2" >Réserver</a>
+                                <a href="#" class="btn btn-primary my-2" data-toggle="modal" data-target="#exampleModal" >Horaire</a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                          ...
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="kaisar.jpg" class="px-2 py-2"  alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Freaks</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up thebulk of the card's content.</p>
+                                <p>
+                                <a href="#" class="btn btn-success my-2" >Réserver</a>
+                                <a href="#" class="btn btn-primary my-2" >Horaire</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="title offset-1">Nos Horaire</h1>
+        <hr class="mc-2">
+        <div class="container">
+            <div class="row">
+        <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Lundi</th>
+                <th scope="col">Mardi</th>
+                <th scope="col">Mercredi</th>
+                <th scope="col">Jeudi</th>
+                <th scope="col">Vendredi</th>
+                <th scope="col">Samedi</th>
+                <th scope="col">Dimanche</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Matin</th>
+                <td>None</td>
+                <td>9:00-12:00</td>
+                <td>9:00-12:00</td>
+                <td>9:00-12:00</td>
+                <td>9:00-12:00</td>
+                <td>8:00-12:00</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <th scope="row">Aprem</th>
+                <td>14:00-20:00</td>
+                <td>14:00-20:00</td>
+                <td>14:00-20:00</td>
+                <td>14:00-00:00</td>
+                <td>14:00-00:00</td>
+                <td>14:00-00:00</td>
+                <td>None</td>
+              </tr>
+            </tbody>
+        </table>
+        </div>
+        </div>
+          <hr class="mt-2">
+        
+        
+            
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
